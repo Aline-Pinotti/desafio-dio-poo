@@ -13,7 +13,18 @@ public class Bootcamp {
 	private final LocalDate dataFinal = dataInicial.plusDays(45);
 	private Set<Devs> devsInscritos = new HashSet<>();
 	private Set<Conteudo> conteudos = new LinkedHashSet<>();
+			
+	public Bootcamp() { // fica implícito na criação da classe, mas vou colocar porque quer um contrutor com os fields
+		super();
+	}
 	
+	public Bootcamp(String nome, String descricao, Set<Conteudo> conteudos) {
+		super();
+		this.nome = nome;
+		this.descricao = descricao;
+		this.conteudos = conteudos;
+	}
+
 	public String getNome() {
 		return nome;
 	}
