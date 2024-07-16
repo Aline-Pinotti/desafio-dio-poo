@@ -43,6 +43,9 @@ public class Main {
 		devJoao.inscreverBootcamp(bootcamp);
 		System.out.println("Conteúdos Instritos João: " + devJoao.getConteudosInscritos());
 		devJoao.progredir();
+		devJoao.progredir();
+		devJoao.progredir();
+		devJoao.progredir();
 		System.out.println("Conteúdos Concluídos João: " + devJoao.getConteudosConcluidos());
 		System.out.println("Conteúdos Instritos João: " + devJoao.getConteudosInscritos());
 		System.out.println("XP: " + devJoao.calcularTotalXP());
