@@ -28,7 +28,7 @@ public class Curso extends Conteudo {
 	@Override
 	public double calcularXP() {
 		// TODO Auto-generated method stub
-		return XP_PADRAO;
+		return XP_PADRAO * this.cargaHoraria;
 	}
 
 }
